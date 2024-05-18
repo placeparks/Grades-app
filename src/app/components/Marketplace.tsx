@@ -99,37 +99,7 @@ const Marketplace: React.FC = () => {
                     ))}
                 </div>
             </div>
-            <button type="button" className="md:tracking-wide relative inline-block px-6 py-2 md:py-0 md:leading-4 md:h-[51.09px] md:w-[240.97px] transition-all duration-500 rounded-full overflow-hidden z-10 montserrat-bold text-md md:text-[21.5px] bg-[#e63b51] border-2 border-black custom-button">
-                VIEW COLLECTION
-                <style jsx>{`
-                    .custom-button::after {
-                        content: '';
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        background-color: #e63b51;
-                        border-radius: 9999px;
-                        z-index: -2;
-                    }
-                    .custom-button::before {
-                        content: '';
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        width: 0%;
-                        height: 100%;
-                        background-color: #ffba00; 
-                        transition: all 0.3s;
-                        border-radius: 9999px;
-                        z-index: -1;
-                    }
-                    .custom-button:hover::before {
-                        width: 100%;
-                    }
-                `}</style>
-            </button>
+ 
         </div>
     );
 };
