@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: 'Qairen';
+  font-style: normal;
+  font-weight: 400; 
+  src: url('/fonts/qairen/Qairen.otf') format('opentype');
+}
+
+.textOde{
+  font-family: 'Qairen';
+  font-weight: 400;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+
+    background-color: #fafaf4;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  border-radius: 9999px;
+  z-index: -2;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #b3b3b3; /* Darkened color */
+  transition: all 0.3s;
+  border-radius: 9999px;
+  z-index: -1;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+.bgsection1{
+  background-image: url('/assets/hand.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.bgsection2{
+  background-image: url('/assets/blue-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgsection4{
+  background-image: url('/assets/blue-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:1520px 100% ;
+}
+
+.connectButtonWrapper {
+	position: relative !important;
+	display: inline-block !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	transition: all 0.3s !important;
+	border-radius: 9999px !important;
+	overflow: hidden !important;
+	z-index: 10 !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: bold !important;
+	font-size: 21.5px !important;
+	background-color: #e63b51 !important;
+	border: 2px solid black !important;
+	text-align: center !important;
+  }
+  
+  .connectButtonWrapper::after {
+	content: "" !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	background-color: #ffba00 !important;
+	border-radius: 9999px !important;
+	z-index: -2 !important;
+  }
+  
+  .connectButtonWrapper::before {
+	content: "" !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 0% !important;
+	height: 100% !important;
+	background-color: #e63b51 !important;
+	transition: all 0.3s !important;
+	border-radius: 9999px !important;
+	z-index: -1 !important;
+  }
+  
+  .connectButtonWrapper:hover::before {
+	width: 100% !important;
+  }
+
+  .custom-button2{
+	position: relative !important;
+	display: inline-block !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+	transition: all 0.3s !important;
+	border-radius: 9999px !important;
+	overflow: hidden !important;
+	z-index: 10 !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+	background-color: #ffba00 !important;
+	border: 2px solid black !important;
+	text-align: center !important;
+  }
+  .custom-button2::after {
+	content: "" !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	background-color: #e63b51 !important;
+	z-index: -2 !important;
+}
+.custom-button2::before {
+	content: "" !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 0% !important;
+	height: 100% !important;
+	background-color: #ffba00 !important;
+	transition: all 0.3s !important;
+	z-index: -1 !important;
+}
+.custom-button2:hover::before {
+	width: 100% !important;
+}
+  
+
+.custom-button-withdraw{
+	overflow: hidden !important;
+	z-index: 10 !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: bold !important;
+	font-size: 21.5px !important;
+	background-color: #e63b51 !important;
+	border: 2px solid black !important;
+	text-align: center !important;
+}
+
+
+.custom-button-withdraw::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ffba00;
+	z-index: -2;
+}
+.custom-button-withdraw::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: #e63b51;
+	transition: all 0.3s;
+	z-index: -1;
+}
+.custom-button-withdraw:hover::before {
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+  .bgsection1 {
+    background-position: center;
+    background-size: contain; /* Or 'auto' */
+  }
+}
+
