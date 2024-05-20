@@ -142,6 +142,22 @@ body {
   background-size:1520px 100% ;
 }
 
+.comingsoon {
+	background-image: url('/assets/CSbg.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	position: relative;
+  }
+  
+  .pencil-image {
+	position: absolute; 
+	right: 0; 
+	top: 10%; 
+	transform: translateY(-50%); 
+  }
+  
+
 .connectButtonWrapper {
 	position: relative !important;
 	display: inline-block !important;

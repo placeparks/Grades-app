@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <nav className="relative bg-transparent dark:bg-gray-900 fixed w-full z-20 top-0 start-0 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/Group.png" className=" h-8 w-auto md:h-[72.42px] md:w-[123.81px]" alt="Logo" />
+            <img src="/logo1.png" className=" h-8 w-auto md:h-[72.42px] md:w-[123.81px]" alt="Logo" />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
          {/* <button type="button" className="tracking-wider relative inline-block leading-4 h-[35px] px-2 md:px-0 md:h-[47.58px] md:w-[159px] transition-all duration-300 rounded-full overflow-hidden z-10 montserrat-bold text-[12px] md:text-[13.41px] bg-[#d9d9d9] border-2 border-black custom-button">
@@ -61,16 +61,14 @@ const Navbar: React.FC = () => {
               <Link href="/" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</Link>
               </li>
               <li>
-                <Link href="#" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</Link>
+                <Link href="/comingsoon" className="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</Link>
+              </li>
+            
+              <li>
+                <Link href="/comingsoon" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Staking</Link>
               </li>
               <li>
-                <Link href="#" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Dashboard</Link>
-              </li>
-              <li>
-                <Link href="/staking" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Staking</Link>
-              </li>
-              <li>
-                <Link href="/marketplace" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</Link>
+                <Link href="/comingsoon" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E63B51] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Marketplace</Link>
               </li>
             </ul>
           </div>
