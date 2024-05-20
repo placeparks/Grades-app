@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -12,9 +13,9 @@ const Navbar: React.FC = () => {
   return (
     <div>
       <nav className="relative bg-transparent dark:bg-gray-900 fixed w-full z-20 top-0 start-0 dark:border-gray-600">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
           <Link href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/logo1.png" className=" h-8 w-auto md:h-[72.42px] md:w-[123.81px]" alt="Logo" />
+          <Image src="/logo1.png" width={124} height={80} className="h-16 w-auto md:h-[80.42px] md:w-[123.81px]" alt="Logo" />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
          {/* <button type="button" className="tracking-wider relative inline-block leading-4 h-[35px] px-2 md:px-0 md:h-[47.58px] md:w-[159px] transition-all duration-300 rounded-full overflow-hidden z-10 montserrat-bold text-[12px] md:text-[13.41px] bg-[#d9d9d9] border-2 border-black custom-button">

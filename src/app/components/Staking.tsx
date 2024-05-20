@@ -19,23 +19,6 @@ interface NFTCard {
 }
 
 
-const StakedNFTs: NFTCard[] = [
-  {
-    image: "/assets/pic.png",
-    name: "NFT ITEM VRS_01",
-    price: "3.21 ETH",
-  },
-  {
-    image: "/assets/pic.png",
-    name: "NFT ITEM VRS_01",
-    price: "4.76 ETH",
-  },
-  {
-    image: "/assets/pic.png",
-    name: "NFT ITEM VRS_01",
-    price: "2.89 ETH",
-  },
-];
 
 const Staking: React.FC = () => {
 
