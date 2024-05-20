@@ -285,8 +285,9 @@ body {
 
 @media (max-width: 800px) {
   .bgsection1 {
-    background-position: center;
+    background-position: right;
     background-size: contain; /* Or 'auto' */
   }
 }
+
 
