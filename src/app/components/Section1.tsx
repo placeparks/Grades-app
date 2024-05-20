@@ -24,7 +24,8 @@ const Section1: React.FC = () => {
         <button
           type="button"
           onClick={handleClick}
-          className="md:tracking-wider relative inline-block px-4 md:px-0 md:leading-4 md:h-[56.11px] md:w-[260.36px] transition-all duration-300 rounded-full overflow-hidden z-10 montserrat-bold text-md md:text-[21.5px] bg-[#e63b51] border-2 border-black custom-button"
+                    className="md:tracking-wider tracking-wide relative inline-block px-2 md:px-0 md:leading-4 md:h-[56.11px] md:w-[260.36px] transition-all duration-300 rounded-full overflow-hidden z-10 montserrat-bold text-md md:text-[21.5px] bg-[#e63b51] border-2 border-black custom-button"
+
         >
            Gradepaper
           <style jsx>{`
