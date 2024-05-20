@@ -14,7 +14,8 @@ const Section1: React.FC = () => {
         <h1 className="md:mt-[-13%] md:max-w-2/4 textOde text-[36px] md:text-[111.64px] text-black ">
           GRADES NFT
         </h1>
-        <p className="w-3/5 poppins-medium mb-6 text-black mt-[2rem] md:mt-[-1rem] lg:mb-4 text-[14px] md:text-[25.51px]">
+               <p className="w-2/4 poppins-medium mb-6 text-justify text-black mt-[1rem] md:mt-[-1rem] lg:mb-4 text-[12px] md:text-[25.51px]">
+
           creating a unique ecosystem where learning and collecting merge into a
           singular{" "}
         </p>
