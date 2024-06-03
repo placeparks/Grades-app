@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
                   <span className="sr-only"> Linkedin</span>
                   <svg
                     className="h-8 w-8 md:h-[50px] md:w-[48px]"
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="/"
                     x="0px"
                     y="0px"
                     width="100"
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                   <svg
                     className="h-8 w-8 md:h-[48px] md:w-[48px]"
                     aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="/"
                     x="0px"
                     y="0px"
                     width="100"
@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
                   <span className="sr-only"> Twitter </span>
                   <svg
                     className="h-8 w-8 md:h-[48px] md:w-[48px]"
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="/"
                     x="0px"
                     y="0px"
                     width="100"
