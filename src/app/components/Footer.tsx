@@ -39,60 +39,120 @@ const Footer: React.FC = () => {
                 marketplace and launchpad. Scroll L2 is where visionary creators
                 thrive. Dive into our unique NFT collections now.
               </p>
-
               <div className="mt-6 flex justify-center gap-4 lg:justify-start">
                 <a
                   className="text-white transition hover:text-gray-700/75"
                   href="#"
-                  target="_blank"
-                  rel="noreferrer"
                 >
-                  <span className="sr-only"> GitHub </span>
+                  <span className="sr-only"> Linkedin</span>
+                  <svg
+                    className="h-8 w-8 md:h-[50px] md:w-[48px]"
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="100"
+                    height="120"
+                    viewBox="0,0,300,150"
+                    style={{ fill: "#FFFFFF" }}
+                  >
+                    <g
+                      fill="#ffffff"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style={{ mixBlendMode: "normal" }}
+                    >
+                      <g transform="scale(5.12,5.12)">
+                        <path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM17,20v19h-6v-19zM11,14.47c0,-1.4 1.2,-2.47 3,-2.47c1.8,0 2.93,1.07 3,2.47c0,1.4 -1.12,2.53 -3,2.53c-1.8,0 -3,-1.13 -3,-2.53zM39,39h-6c0,0 0,-9.26 0,-10c0,-2 -1,-4 -3.5,-4.04h-0.08c-2.42,0 -3.42,2.06 -3.42,4.04c0,0.91 0,10 0,10h-6v-19h6v2.56c0,0 1.93,-2.56 5.81,-2.56c3.97,0 7.19,2.73 7.19,8.26z"></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a
+                  className="text-white transition hover:text-gray-700/75"
+                  href="#"
+                >
+                  <span className="sr-only"> Telegram </span>
                   <svg
                     className="h-8 w-8 md:h-[48px] md:w-[48px]"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
                     aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="100"
+                    height="100"
+                    viewBox="0,0,300,150"
+                    style={{ fill: "#FFFFFF" }}
                   >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12c0 4.418 2.867 8.166 6.839 9.49.5.092.683-.216.683-.481 0-.237-.008-.866-.013-1.7-2.782.605-3.37-1.343-3.37-1.343-.454-1.155-1.11-1.462-1.11-1.462-.908-.621.069-.608.069-.608 1.003.07 1.53 1.03 1.53 1.03.892 1.528 2.341 1.087 2.91.832.092-.646.35-1.087.637-1.338-2.22-.252-4.555-1.11-4.555-4.944 0-1.091.39-1.985 1.03-2.682-.103-.253-.446-1.268.098-2.64 0 0 .84-.269 2.75 1.025A9.561 9.561 0 0112 6.845a9.56 9.56 0 012.502.338c1.91-1.294 2.75-1.025 2.75-1.025.545 1.372.202 2.387.1 2.64.641.697 1.03 1.591 1.03 2.682 0 3.842-2.337 4.69-4.565 4.936.359.309.679.921.679 1.856 0 1.34-.012 2.42-.012 2.751 0 .268.18.579.688.48A9.988 9.988 0 0022 12c0-5.52-4.48-10-10-10z"
-                    />
+                    <g
+                      fill="#ffffff"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style={{ mixBlendMode: "normal" }}
+                    >
+                      <g transform="scale(5.12,5.12)">
+                        <path d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z"></path>
+                      </g>
+                    </g>
                   </svg>
                 </a>
 
                 <a
                   className="text-white transition hover:text-gray-700/75"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="sr-only"> LinkedIn </span>
-                  <svg
-                    className="h-8 w-8 md:h-[48px] md:w-[48px]"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                  >
-                    <path d="M22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.46C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.23 0zm-6.92 20.45h-3.91v-6.44c0-1.54-.03-3.52-2.14-3.52-2.14 0-2.46 1.67-2.46 3.4v6.56H6.02V8.99h3.75v1.56h.05c.52-.99 1.8-2.04 3.71-2.04 3.97 0 4.7 2.61 4.7 6v6.94h-.01zm-11.4-13h-.03c-1.29 0-2.12-.85-2.12-1.9 0-1.08.85-1.9 2.15-1.9 1.29 0 2.12.82 2.15 1.9 0 1.05-.83 1.9-2.15 1.9zM4.8 20.45H.89V8.99H4.8v11.46z" />
-                  </svg>
-                </a>
-
-                <a
-                  className="text-white transition hover:text-gray-700/75"
-                  href="#"
+                  href="https://x.com/gradesnft?s=21&t=eGlfVgPxUrMO1k6xG5gneg"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span className="sr-only"> Twitter </span>
                   <svg
                     className="h-8 w-8 md:h-[48px] md:w-[48px]"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="100"
+                    height="100"
+                    viewBox="0,0,300,150"
+                    style={{ fill: "#FFFFFF" }}
                   >
-                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                    <g
+                      fill="#ffffff"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style={{ mixBlendMode: "normal" }}
+                    >
+                      <g transform="scale(5.12,5.12)">
+                        <path d="M11,4c-3.866,0 -7,3.134 -7,7v28c0,3.866 3.134,7 7,7h28c3.866,0 7,-3.134 7,-7v-28c0,-3.866 -3.134,-7 -7,-7zM13.08594,13h7.9375l5.63672,8.00977l6.83984,-8.00977h2.5l-8.21094,9.61328l10.125,14.38672h-7.93555l-6.54102,-9.29297l-7.9375,9.29297h-2.5l9.30859,-10.89648zM16.91406,15l14.10742,20h3.06445l-14.10742,-20z"></path>
+                      </g>
+                    </g>
                   </svg>
                 </a>
               </div>
