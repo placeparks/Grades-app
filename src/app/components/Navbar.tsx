@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     <div>
       <nav className="relative bg-transparent dark:bg-gray-900 fixed w-full z-20 top-0 start-0 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
-          <Link href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src="/logo1.png" width={124} height={80} className="h-16 w-auto md:h-[80.42px] md:w-[123.81px]" alt="Logo" />
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
